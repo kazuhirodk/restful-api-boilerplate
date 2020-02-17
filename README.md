@@ -34,7 +34,7 @@ createdb books
 createdb book_test
 ```
 You can use any user for PostgreSQL database, just use `.env.example` template.
-This template already has a Book model, but you can utilize Sequelize to create a new one.
+This template already has a Book database by default, but you can utilize Sequelize to create a new one.
 
 *example*
 >sequelize model:create --name Book --attributes title:string, price:string, description:string
