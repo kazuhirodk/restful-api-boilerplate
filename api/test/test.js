@@ -161,7 +161,6 @@ describe('Testing the book endpoints:', () => {
       });
   });
 
-
   it('It should delete a book', (done) => {
     const bookId = 1;
     chai.request(app)
